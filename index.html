@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Mood Cooking</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+
+<div id="home" class="home">
+
+<div class="overlay">
+
+<h1 class="title">MOOD BASED COOKING</h1>
+
+<button class="startbtn" onclick="startApp()">
+Get Started →
+</button>
+
+</div>
+
+</div>
+
+
+<!-- MENU PAGE -->
+
+<div id="menu" style="display:none;">
+
+<h1>🍳 Smart Cooking Selector</h1>
+
+<h2>😊 Emotions</h2>
+
+<button onclick="openPage('happy')">Happy</button>
+
+<button onclick="openPage('sad')">Sad</button>
+
+<button onclick="openPage('lazy')">Lazy</button>
+
+<button onclick="openPage('energetic')">Energetic</button>
+
+
+<h2>📂 Categories</h2>
+
+<button onclick="openPage('cuisine')">Cuisine</button>
+
+<button onclick="openPage('meal')">Type of Meal</button>
+
+<button onclick="openPage('taste')">Taste</button>
+
+<button onclick="openPage('diet')">Diet Type</button>
+
+<button onclick="openPage('method')">Cooking Method</button>
+
+<button onclick="openPage('modern')">Modern Food</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
